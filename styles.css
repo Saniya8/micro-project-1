@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Kanit&family=Roboto:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.firstpart {
+    background-color: #FFCD9E;
+    width: 100%;
+    height: 592px;
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 60px 60px 60px;
+    align-items: center;
+}
+
+.partone {
+    width: 562px;
+}
+
+.firstpart h1 {
+    font-size: 36px;
+    height: 108px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #282828;
+}
+
+.firstpart p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #484848;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.firstpart h5 {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 32px;
+    letter-spacing: 0em;
+    color: #282828;
+    padding: 10px 0px 10px 0px;
+}
+
+.firstpart button {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #282828;
+    color: #FFFFFF;
+    width: 216px;
+    height: 64px;
+    border-radius: 8px;
+}
+
+.firstpart input {
+    border: 4px solid #000000;
+    width: 344px;
+    height: 64px;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 0px 4px 0px 4px;
+}
+
+.firstpart ::placeholder {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    width: 344px;
+    height: 64px;
+    color: #888888;
+    padding-left: 8px;
+}
+
+.firstpart form {
+    display: flex;
+    justify-content: space-between;
+    gap: 2%;
+    padding: 20px 0px 20px 0px;
+}
+
+.firstpart h6 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    width: 344px;
+    height: 61px;
+    padding: 16px;
+}
+
+.vectorimage {
+    width: 393.52px;
+    height: 442.45px;
+}
+
+.secondpart {
+    background-color: #282828;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 60px 60px 60px 60px;
+}
+
+.secondpart p {
+    color: #FFFFFF;
+    height: 36px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.secondpart .onepart {
+    text-align: left;
+}
+
+.secondpart .twopart {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.secondpart img {
+    width: 29.41px;
+    height: 27.42px;
+}
+
+.secondpart .lastp {
+    text-align: end;
+}
+
+@media screen and (max-width:1040px) {
+    .firstpart {
+        background-color: #FFCD9E;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .partone {
+        width: 100%;
+    }
+
+    .firstpart h1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40px;
+        color: #282828;
+        height: 100%;
+    }
+
+    .firstpart p {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 30px;
+        color: #484848;
+    }
+
+    .firstpart h5 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 32px;
+        color: #282828;
+    }
+
+    .firstpart button {
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        background: #282828;
+        color: #FFFFFF;
+        width: 65%;
+        height: 48px;
+        border-radius: 8px;
+    }
+
+    .firstpart input {
+        border: 2px solid #000000;
+        height: 48px;
+        border-radius: 8px;
+        font-size: 100%;
+        padding: 0px 4px 0px 4px;
+        width: 100%;
+    }
+
+    .firstpart ::placeholder {
+        font-size: 15px;
+        font-weight: 600;
+        width: 100%;
+        height: 64px;
+        color: #888888;
+        padding-left: 8px;
+    }
+
+    .firstpart form {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        padding: 20px 0px 20px 0px;
+        align-items: center;
+    }
+
+    .firstpart h6 {
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 15px;
+        text-align: center;
+        color: #FFFFFF;
+        width: 100%;
+        padding: 16px;
+    }
+
+    .vectorimage {
+        width: 100%;
+        height: 50%;
+    }
+
+    .secondpart {
+        background-color: #282828;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 60px 60px 60px 60px;
+    }
+
+    .secondpart p {
+        color: #FFFFFF;
+        height: 36px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .secondpart .onepart {
+        text-align: left;
+    }
+
+    .secondpart .twopart {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .secondpart img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .secondpart .lastp {
+        text-align: start;
+        padding: 2px 0px 2px 0px;
+    }
+}
